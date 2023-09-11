@@ -1,107 +1,67 @@
-h1{
-    text-align: justify;font-family:Arial, Helvetica, sans-serif;font-size:45px;color:black; margin:20px;
+.body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between; align-items: center;
+}
+#logo{
+    border:3px solid;
+    padding:0 10px;
+}
+
+#navbar li{
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+.flex-container{
+    display:flex;
+    background-color: gray;
+    border:solid red;
+    border-width:2px;
+    border-radius:4px;
+}
+
+.flex-container > div{
+    background-color:#ffffff;
+    margin:10px;
+    padding:20px;
+    align-items: normal;
 }
 
 p{
     font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
 }
 
-li{
+h1{
     font-family:Arial, Helvetica, sans-serif;
-}
-
-.titles{
-    display:inline-flex;
-    align-items:justified;
-    font-family:Arial, Helvetica, sans-serif;
-    border-color:red;
-    border-width: 40px;
-    color:green;
-
 }
 
 h2{
     font-family:Arial, Helvetica, sans-serif;
-    padding-left: 10px;
+    font-size:22px; 
 }
 
-p{
-    padding-left: 10px;
-}
-
-.column{
-    display:inline-flex;
-    flex-direction:column;
-    margin:10px;
-    border-width:10px;
-    border-color:black;
-}
-
-.bro{
-    display:inline-flex;
-    flex-direction:row; 
-    align-items:normal; 
-    border:1px solid red;
-    justify-content: center;
-    margin: 10px; gap:10px;
-    padding:0px;
-}
-
-.box{
-    display:inline-flex;
-    border:1px solid red;
-    flex-direction:row;
-    align-items:normal
-    margin 10px; gap: 10px;
-    padding: 10px
-}
-
-.bru{
-    display:inline-flex;
-    flex-direction:column;
-    align-items:normal;
-    border:1px solid blue;
-    margin:10px;  
-}
-
-.nav{
-    display:contents;
-    flex-direction:row;
-    align-items:center;
+li{
     font-family:Arial, Helvetica, sans-serif;
-    background-color:#FFC0CB;
-    overflow:hidden;
+    font-size:14px;
 }
 
-.nav a{
-    float:left;
-    color:black;
-    text-align:center;
-    padding:14px 16px;
-    margin:5px;
-    border-color:blue;
-    border-width:50px;
+button{
+    padding:9px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:9px;
+    border-width:1.9px;
+
 }
 
-.nav a:hover{
-    background-color:#ddd;
-    color:black;
-}
-
-.nav a.active{
-    color:blue;
-}
-
-.list{
-    margin:5px;
-    align-items:fill;
-}
-
-.header{
-    display:inline-flex;
-    align-items:justified;
-}
-
-.quote{
-    padding:15px;
-}

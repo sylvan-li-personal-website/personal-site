@@ -5,15 +5,19 @@
 .container{
     display:flex;
     justify-content: space-between; align-items: center;
+    padding:6px;
 }
+
 #logo{
     border:3px solid;
-    padding:0 10px;
+    padding:5px 10px;
+
 }
 
 #navbar li{
     display:inline-block;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 #navbar a{
@@ -22,10 +26,20 @@
     padding-right:15px;
 }
 
+.box{
+    display:flex;
+}
+
+.box :first-child{
+    width:150px;
+}
+
+.box > * {
+    flex: 20 auto;
+}
+
 .flex-container{
     display:flex;
-    background-color: gray;
-    border:solid red;
     border-width:2px;
     border-radius:4px;
 }
@@ -33,7 +47,7 @@
 .flex-container > div{
     background-color:#ffffff;
     margin:10px;
-    padding:20px;
+    padding:10px;
     align-items: normal;
 }
 
@@ -49,6 +63,7 @@ h1{
 h2{
     font-family:Arial, Helvetica, sans-serif;
     font-size:22px; 
+    margin:10px
 }
 
 li{
@@ -62,6 +77,6 @@ button{
     padding-right:20px;
     border-radius:9px;
     border-width:1.9px;
+    align-items: center;
 
 }
-

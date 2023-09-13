@@ -1,45 +1,25 @@
-.body{
-    font-family:Arial, Helvetica, sans-serif;
-}
-
 .container{
     display:flex;
-    justify-content: space-between; align-items: center;
+    justify-content: space-between; align-items:center;
+    padding:6px;
 }
+
 #logo{
-    border:3px solid;
     padding:0 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkblue
 }
 
 #navbar li{
     display:inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #navbar a{
-    text-decoration: none;
+    text-decoration:none;
     font-size:18px;
     padding-right:15px;
-}
-
-.flex-container{
-    display:flex;
-    background-color: gray;
-    border:solid red;
-    border-width:2px;
-    border-radius:4px;
-}
-
-.flex-container > div{
-    background-color:#ffffff;
-    margin:10px;
-    padding:20px;
-    align-items: normal;
-}
-
-p{
     font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
 }
 
 h1{
@@ -48,20 +28,25 @@ h1{
 
 h2{
     font-family:Arial, Helvetica, sans-serif;
-    font-size:22px; 
 }
 
-li{
+p{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.flex-container{
+    display:flex;
+    border-width:2px;
+    border-radius:4px;
+}
+
+.flex-container > div{
+    background-color:#ffffff;
+    margin:10px;
+    padding:10px;
+    align-items: normal;
+}
+
+ul{
     font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
 }
-
-button{
-    padding:9px;
-    padding-left:20px;
-    padding-right:20px;
-    border-radius:9px;
-    border-width:1.9px;
-
-}
-

@@ -10,7 +10,7 @@
 <body>
     <!-- nav section-->
     <div id="main-header">
-        <div class="container">
+        <div class="navbar">
             <h1 id="logo">Sylvan</h1>
         <nav id="navbar">
             <ul>
@@ -21,16 +21,31 @@
             </ul>
         </nav>
     </div>
-    
     <!--meats and potatos - contact  section -->
-
-    <!--add a name field-->
-
-    <!-- add a email field-->
-
-    <!-- add a message field-->
-
-    <!--add a submit button that links to another page--> 
-    <a href="./formsubmitted.html"><button>Submit Feedback</button></a>
+    <div style ="padding:30px;margin-top:150px;height:1500px">
+        <h2><center>Let's Connect!</center></h2>
+        <!--added submission confirmation-->
+        <div>
+             <!--add a name field-->
+            <label for="fname" style="font-family:'Times New Roman', Times, serif">First Name:  
+                <input type="text" placeholder="First Name" name="name"/><br>
+             <!-- add a email field-->
+            <label for="email" id="email" name="email">Email Address: 
+                <input type="text" placeholder="Email@gmail.com" name="email">
+            </label>
+        </form>
+         <!-- add a message field-->
+    <form>
+        <textarea name="comments" id="comments" placeholder = "leave a comment" style="width:96%;height:90px;padding:2%;font-size:1.2em;background-color:rgb(225, 216, 213);font-family: 'Times New Roman', Times, serif;"></textarea>        
+    </form>
+    <br>
+    <div>
+        <!--add a submit button that links to another page--> 
+      <a href="./formsubmitted.html"><button>Submit Feedback</button></a>
+    </div>
+</div>
+        
+    
+    
 </body>
 </html>

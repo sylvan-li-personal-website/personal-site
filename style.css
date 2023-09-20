@@ -40,7 +40,8 @@ body{
     text-decoration:none;
 }
 
-/*advanced css rule: transition-hover*/
+/*advanced css rule: transition-hover - 
+hover affects */
 li a:hover{
     background-color:rgba(255, 182, 193, 0.738);
     border-radius:15px;
@@ -130,7 +131,7 @@ p{
 .bottomlinks{
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items:inline-block;
     height:100%;
 }
 
